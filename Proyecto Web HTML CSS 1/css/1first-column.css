@@ -1,12 +1,12 @@
 @import url(variables.css);
 
 .first__column{
-    font-size: 35px;
+    font-size: 220%;
     padding-bottom: 40px;
 }
 
 .primary__image{
-    height: 30%;
+    width: 85%;
 }
 
 .primary__image:hover{
@@ -15,11 +15,12 @@
 
 
 .secondly__image{
-    height: 65%;
+    width: 80%;
+    padding-bottom: 20px;
 }
 
 .secondly__image:hover{
-    height: 70%;
+    width: 90%;
 }
 
 .container__primary{

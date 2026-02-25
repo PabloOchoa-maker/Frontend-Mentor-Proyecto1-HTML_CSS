@@ -1,0 +1,95 @@
+
+
+@media screen and (max-width: 376px) {
+    .container{
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+/* Primer casillero */
+    .container__title{
+        padding: 15px 10px;
+        text-align: center;
+        order: 0;
+    }
+
+    .title__image{
+        width: 60%;
+    }
+    
+    .titulo{
+        font-size: 35px;
+        padding-bottom: 0px;
+    }
+
+/* Segundo casillero */
+    .container__thirdly{
+        order: 1;
+    }
+
+    .thirdly__title{
+        font-size: 1.4rem;
+    }
+
+/* Tercer casiller */
+    .container__fifthly{
+        order: 2;
+        padding-right: 80px;
+    }
+
+    .fifthly__title{
+        font-size: 1.4rem;
+    }
+
+/* 4 casillero */
+    .container__sevenly{
+        order: 3;
+    }
+
+    .sevenly__image{
+        width: 100%;
+        padding-left: 0;
+    }
+/* 5 casillero */
+    .container__sixthly{
+        order: 4;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    .sixthly__image{
+        padding-bottom: 30px;
+    }
+
+    .sixthly__title{
+        font-size: 1.8rem;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+/* 6 casillero */
+    .container__fourthly{
+        order: 5;
+    }
+/* 7 casillero */
+    .container__primary{
+        order: 6;
+    }
+
+    .primary__title{
+        font-size: 2rem;
+    }
+
+    .primary__image{
+        width: 75%;
+    }
+
+/* 8 casillero */
+    .container__secondly{
+        order: 7;
+    }
+
+    
+}
