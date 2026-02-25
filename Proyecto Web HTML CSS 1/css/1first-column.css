@@ -1,0 +1,33 @@
+@import url(variables.css);
+
+.first__column{
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+.primary__image{
+    height: 30%;
+}
+
+.primary__image:hover{
+    height: 35%;
+}
+
+
+.secondly__image{
+    height: 65%;
+}
+
+.secondly__image:hover{
+    height: 70%;
+}
+
+.container__primary{
+    grid-area: 1/1/4/2;
+    background: var(--yellow100)
+}
+
+.container__secondly{
+    grid-area: 4/1/7/2;
+    background: var(--yellow500)
+}

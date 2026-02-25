@@ -1,0 +1,20 @@
+@import url(variables.css);
+
+.container__fifthly{
+    grid-area: 3/3/5/4;
+    padding: 10px;
+    background: var(--yellow500);
+}
+
+.fifthly__title{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.fifthly__image{
+    width: 100%;
+}
+
+.fifthly__image:hover{
+    width: 75%;
+}

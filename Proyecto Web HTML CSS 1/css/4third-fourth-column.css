@@ -1,0 +1,33 @@
+@import url(variables.css);
+
+.container__sixthly{
+    grid-area: 5/3/7/-1;
+    background: var(--morado500);
+    flex-direction: row;
+}
+
+.container__sevenly{
+    grid-area: 1/4/5/-1;
+    background: var(--morado100);
+}
+
+.sixthly__image{
+    width: 50%;
+}
+
+.sixthly__title{
+    color: var(--white);
+    font-size: 1.9rem;
+    padding-left: 30px;
+}
+
+.sevenly__title{
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.sevenly__image{
+    width: 125%;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+@import url(variables.css);
+
+.container__thirdly{
+    grid-area: 3/2/5/3;
+    background: var(--white);
+    padding: 20px;
+}
+
+.container__fourthly{
+    grid-area: 5/2/7/3;
+    background: var(--white);
+    padding: 20px;
+    align-items: normal;
+}
+
+.thirdly__image{
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+.thirdly__title{
+    font-size: 1.8rem;
+}
+
+.fourthly__image{
+    width: 175px;
+    padding-bottom: 20px;
+}
+
+.fourthly__title{
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+.fourthly__paragraph{
+    padding-bottom: 20px;
+}
